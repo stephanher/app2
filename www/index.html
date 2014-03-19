@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>panel demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+
+</head>
+<body>
+ 
+<!-- page1 --> 
+<div data-role="page" id="page1">
+  <div data-role="header" data-theme="a">
+    <div class="ui-block-c"><a class="ui-shadow ui-btn-left ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" <a href="#defaultpanel"></a></div>
+	<div class="ui-block-c"><a class="ui-shadow ui-btn-right ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" <a href="#page1"></a></div>
+    <h1>jQuery Mobile Example</h1>
+  </div>
+
+  <!-- defaultpanel  -->
+  <div data-role="panel" id="defaultpanel" data-theme="a" data-display="overlay">
+    <div class="panel-content">
+      <a href="#page2" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-user" data-theme="a">Daten</a>
+	  <a href="#page3" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-location" data-theme="a">Standorte</a>
+    </div><!-- /content wrapper for padding -->
+  </div><!-- /defaultpanel -->
+  
+</br>
+
+  <div class="ui-body ui-body-a" align="center">
+    <p>Content</p>
+  </div>
+
+  
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4 style="text-align:center;">by S. Herget</h4>
+</div><!-- /footer -->
+
+</div>
+
+<!-- /page2 -->
+<div data-role="page" id="page2">
+   <div data-role="header" data-theme="a">
+    <div class="ui-block-c"><a class="ui-shadow ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" <a href="#defaultpanel"></a></div>
+	<div class="ui-block-c"><a class="ui-shadow ui-btn-right ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" <a href="#page1"></a></div>
+    <h1>jQuery Mobile Example</h1>
+  </div>
+
+ 
+  <!-- defaultpanel  -->
+  <div data-role="panel" id="defaultpanel" data-theme="a">
+    <div class="panel-content">
+      <a href="#page2" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-user" data-theme="a">Ich</a>
+	  <a href="#page3" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-location" data-theme="a">Orte</a>
+    </div><!-- /content wrapper for padding -->
+  </div>
+  
+  
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4 style="text-align:center;">by S. Herget</h4>
+</div><!-- /footer -->
+
+</div>
+
+<!-- /page3 -->
+<div data-role="page" id="page3">
+   <div data-role="header" data-theme="a">
+    <div class="ui-block-c"><a class="ui-shadow ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" <a href="#defaultpanel"></a></div>
+	<div class="ui-block-c"><a class="ui-shadow ui-btn-right ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" <a href="#page1"></a></div>
+    <h1>jQuery Mobile Example</h1>
+  </div>
+
+ 
+  <!-- defaultpanel  -->
+  <div data-role="panel" id="defaultpanel" data-theme="b">
+    <div class="panel-content">
+      <a href="#page2" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-user" data-theme="a" >Ich</a>
+	  <a href="#page3" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-location" data-theme="a">Orte</a>
+    </div><!-- /content wrapper for padding -->
+  </div>
+	
+  <div data-role="content">
+    <p>seite 3</p>
+  </div>	
+	
+ <!-- /footer --> 
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4 style="text-align:center;">by S. Herget</h4>
+</div>
+
+</div>
+
+ 
+</body>
+</html>
